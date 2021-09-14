@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Anaheim&display=swap");
+:root {
+  --corPrimaria: #3D3D3D;
+  --corSecundaria: #202020;
+  --corTexto: #FFFFFF;
+  --corIcones: #FFFFFF;
+  --corBotao: #08BB3A;
+  --corBotaoHover: #0de049;
+  --corInput: #303030;
+  --corBordaInput: #393939;
+  --corTextoSombreado: #868686;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: var(--corPrimaria);
+}
+
+body .container {
+  position: relative;
+  width: 335px;
+  background: transparent;
+}
+
+body .container .sup {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 75px;
+  border-radius: 10px;
+  background: var(--corSecundaria);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+body .container .sup h1 {
+  font-family: 'Anaheim', sans-serif;
+  font-weight: 100;
+  font-size: 30px;
+  color: var(--corTexto);
+}
+
+body .container .sup h1 i {
+  width: 30px;
+  height: 30px;
+  color: var(--corIcones);
+}
+
+body .container .rect {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  -webkit-transform: rotateZ(45deg) translateX(-50%);
+          transform: rotateZ(45deg) translateX(-50%);
+  left: 50%;
+  top: 92px;
+  background: var(--corSecundaria);
+  z-index: 1;
+}
+
+body .container .inf {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 390px;
+  margin-top: 20px;
+  border-radius: 10px;
+  background: var(--corSecundaria);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+
+body .container .inf form {
+  font-family: 'Anaheim', sans-serif;
+}
+
+body .container .inf form label {
+  display: block;
+  color: var(--corTexto);
+}
+
+body .container .inf form input {
+  display: block;
+  width: 244px;
+  height: 28px;
+  border: 1px solid var(--corBordaInput);
+  border-radius: 5px;
+  padding-left: 34px;
+  background: var(--corInput);
+  color: var(--corTexto);
+}
+
+body .container .inf form button {
+  display: block;
+  width: 278px;
+  height: 45px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 5px;
+  background: var(--corBotao);
+  color: var(--corTexto);
+  font-family: 'Anaheim', sans-serif;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+body .container .inf form button:hover {
+  background: var(--corBotaoHover);
+}
+
+body .container .inf form p {
+  text-align: center;
+  margin-top: 8px;
+  color: var(--corTextoSombreado);
+  font-size: 12px;
+  cursor: pointer;
+}
+
+body .container .inf form .container01 {
+  position: relative;
+}
+
+body .container .inf form .container01 .box01 {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  background: var(--corBordaInput);
+  top: 0px;
+  left: 0px;
+  color: var(--corIcones);
+}
+
+/* Google Fonts */
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+/*# sourceMappingURL=main.css.map */
